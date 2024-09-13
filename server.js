@@ -17,7 +17,7 @@ app.use('/api/transactions', transactionRoutes);
 // Log the MongoDB URI to ensure it's being loaded correctly
 console.log('MongoDB URI:', process.env.MONGO_URI);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5001;
 
 // Connect to MongoDB (no need for deprecated options)
 mongoose.connect(process.env.MONGO_URI)
